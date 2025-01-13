@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         registry = "atwumasi/vprofile"
-        registryCredential = 'dockerhub'
+        registryCredential = 'docker-login'
     }
 
     stages{
